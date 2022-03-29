@@ -1,0 +1,12 @@
+.admin_container {
+    display: flex;
+    background-color: lightgray;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+.admin_rightBlock {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
