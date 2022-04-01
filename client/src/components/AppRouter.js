@@ -26,7 +26,7 @@ const AppRouter = () => {
             <Route path='/registration' element={<Auth/>}/>
             <Route path='/login' element={<Auth/>}/>
             <Route path='/device/:id' element={<DevicePage/>}/>
-            <Route path="*" element={<Shop/>}/>
+            <Route path="/*" element={<Shop/>}/>
         </Routes>
     );
 };

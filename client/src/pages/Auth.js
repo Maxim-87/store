@@ -25,7 +25,7 @@ export const Auth = observer( () => {
             }
             user.setUser(user)
             user.setIsAuth(true)
-            navigate('/device')
+            navigate('/')
         } catch (e) {
             alert(e.response.data.message)
         }
