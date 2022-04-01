@@ -8,7 +8,7 @@ import {Context} from "../index";
 import {fetchTypes, fetchBrands, fetchDevices} from "../http/deviceApi";
 
 export const Shop = observer (() => {
-
+    debugger
     const {device} = useContext(Context)
 
     useEffect(() => {

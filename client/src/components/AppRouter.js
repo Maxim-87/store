@@ -17,6 +17,8 @@ const AppRouter = () => {
         return <Routes>
             <Route path='/admin' element={<Admin/>}/>
             <Route path='/basket' element={<Basket/>}/>
+            <Route path='/shop' element={<Shop/>}/>
+            <Route path="/*" element={<Shop/>}/>
         </Routes>
     }
 
